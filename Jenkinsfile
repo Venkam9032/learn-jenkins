@@ -23,7 +23,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo This is Build'
+                sh 'echo  Build'
                 // sh 'sleep 10'
             }
         }
